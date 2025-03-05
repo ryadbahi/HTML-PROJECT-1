@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+</head>
+<body style="font-family: sans-serif; margin: 0; padding: 0; background-color: #f0f0f0;">
+    
+    <nav style="background: #333; padding: 10px; text-align: center; position: sticky; top: 0; z-index: 1000;">
+        <a href="#home" style="color: white; text-decoration: none; padding: 10px;">Home</a>
+        <a href="#about" style="color: white; text-decoration: none; padding: 10px;">About</a>
+        <a href="#work" style="color: white; text-decoration: none; padding: 10px;">Work</a>
+        <a href="#resume" style="color: white; text-decoration: none; padding: 10px;">Resume</a>
+        <a href="#contact" style="color: white; text-decoration: none; padding: 10px;">Contact</a>
+    </nav>
+
+    <div style="display: flex; justify-content: center; padding-top: 5vh;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UlkFcgTxbzs?si=_azMWSElkWgRg0w7" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen></iframe>
+    </div>
+    
+    <section id="home" style="padding: 20px;">
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p style="width: 565px; line-height: 20px;">
+            Ici, pas de code ennuyeux ni de pages fades ! Juste un développeur passionné qui jongle entre <strong>Angular, Node.js et un bon café bien serré</strong>. <br>
+            D’abord plongé dans l’univers du tourisme, puis expert en assurance, <br>
+            j’ai appris à naviguer entre l’humain et la technique.
+        </p>
+        <p style="width: 565px; line-height: 20px;">
+            Aujourd’hui, je mets cette polyvalence au service du <strong>développement web :</strong> créer des expériences fluides, optimiser des process, 
+            et rendre les choses plus simples (Ou autrement compliqué ?).
+        </p>
+        <p style="width: 565px; line-height: 20px;">
+            Explore, clique, découvre – et si quelque chose te plaît, on en parle ?
+        </p>
+    </section>
+    
+    <section id="about" style="padding: 20px;">
+        <h2>À propos</h2>
+        <div style="width: 565px; line-height: 20px;">
+            <p><strong>Développeur web, explorateur de solutions et amateur de bons défis.</strong></p>
+            <p>Mon parcours ne suit pas une ligne droite : après avoir évolué dans le <strong>tourisme</strong>, où j’ai appris à anticiper les attentes des clients, et dans <strong>l’assurance</strong>, où la précision est clé, j’ai découvert une nouvelle passion : <strong>le développement web</strong>.</p>
+            <p>Aujourd’hui, j’allie <strong>rigueur et créativité</strong> pour concevoir des applications intuitives et performantes. J’aime particulièrement <strong>résoudre des problèmes</strong>, optimiser des workflows et automatiser des tâches pour rendre la vie plus simple.</p>
+            <p>Toujours curieux, toujours en apprentissage, je cherche sans cesse à <strong>repousser mes limites</strong>.</p>
+        </div>
+    </section>
+    
+    <section id="work" style="padding: 20px;">
+        <h2>Mes Projets</h2>
+        <table border="1" style="width: 565px; line-height: 20px;">
+            <tr>
+                <th style="vertical-align: middle; text-align: center;"> 
+                    La Stack : 
+                    <img src="assets/angular_icon_gradient.gif" alt="Angular Icon" style="width: 50px; height: 50px; margin: 0 10px; vertical-align: middle;">
+                    <img src="assets/nodejsicn.webp" alt="Node.js Icon" style="width: 50px; height: 50px; margin: 0 10px; vertical-align: middle;">
+                    <img src="assets/expressjsicn.png" alt="Express.js Icon" style="width: 50px; height: 50px; margin: 0 10px; vertical-align: middle;">
+                    <img src="assets/mysqlicn.webp" alt="MySQL Icon" style="width: 50px; height: 50px; margin: 0 10px; vertical-align: middle;">
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Ce projet m’a servi de terrain d’apprentissage pour le <strong>développement frontend et backend</strong>, 
+                    en évoluant au fil des défis rencontrés dans mon travail d’assureur. Il repose sur des concepts essentiels tels que le <strong>CRUD</strong>, 
+                    l’optimisation des interfaces, la gestion du <strong>lazy loading</strong>, et bien d’autres bonnes pratiques de développement.<br><br>
+                    Grâce à ce projet, j’ai pu <strong>automatiser et simplifier mes tâches quotidiennes</strong>, 
+                    en transformant des processus manuels en solutions efficaces et intuitives. Chaque fonctionnalité a été pensée 
+                    pour <strong>répondre à des besoins réels</strong>, tout en consolidant mes compétences en développement web.
+                </td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="resume" style="padding: 20px;">
+        <h2>Mon CV</h2>
+        <table border="2">
+            <tr>
+                <th>Nom du poste</th>
+                <th>Entreprise</th>
+                <th>Durée</th>
+            </tr>
+            <tr>
+                <td>Agent d'assurance</td>
+                <td>Ciar / Macirvie (AGA)</td>
+                <td>2 ans</td>
+            </tr>
+            <tr>
+                <td>Agent de voyage</td>
+                <td>Cesar travels</td>
+                <td>3 ans</td>
+            </tr>
+            <tr>
+                <td>Cadre technique sinistre</td>
+                <td>Macirvie SPA</td>
+                <td>8 ans (en cours)</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="contact" style="padding: 20px;">
+        <h2>Contact</h2>
+        <form>
+            <label for="nom">Nom : <span style="color: red;">*</span></label><br>
+            <input type="text" id="nom" name="nom" required /><br /><br />
+      
+            <label for="email">Email :<span style="color: red;">*</span></label><br>
+            <input type="email" id="email" name="email" required /><br /><br />
+      
+            <label for="message">Message :<span style="color: red;">*</span></label><br />
+            <textarea id="message" name="message" rows="8" cols="60"></textarea><br /><br />
+      
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer style="background: #333; color: white; text-align: center; padding: 10px; display: flex; justify-content: space-between; align-items: center;">
+        <p style="flex: 1; text-align: center; margin: 0;">&copy; 2025 BAHI Ryad</p>
+        <p style="margin: 0;">
+            <a href="https://github.com/ryadbahi" target="_blank">
+                <img src="assets/github-logo.png" alt="" style="height: 45px; width: 45px;">
+            </a>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+                <img src="assets/174857.png" alt="" style="height: 45px; width: 45px;">
+            </a>
+        </p>
+    </footer>
+    
+</body>
+</html>
